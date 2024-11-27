@@ -552,13 +552,13 @@ margin-bottom: 16px;
   color: #ffffff;
 }
 
-.main-head-form {
+.bottom-form {
   display: flex;
   gap: 24px;
   
 }
 
-.main-head-form-label-input {
+.bottom-form-label-input {
 
   width: 264px;
   height: 40px;
