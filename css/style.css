@@ -604,6 +604,8 @@ margin-bottom: 16px;
   margin-left: 16px;
 }
 
+/* modal-chapter */
+
 .modal-window {
   position: fixed;
   top: 0;
@@ -654,4 +656,64 @@ margin-bottom: 16px;
 .main-form-button:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-close-icon {
+  'transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.main-form-button:hover svg {
+  fill: #ffffff;
+}
+
+.main-form-button:focus svg {
+  fill: #ffffff;
+}
+
+.modal-container {
+  padding: 72px 24px 24px 24px;
+}
+
+.modal-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.modal-first-container {
+  margin-bottom: 8px;
+}
+
+.form-name-chapter {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-name-input {
+  position: relative;
+
+}
+
+.form-name-input-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-name-input-container:focus {
+  border-color: #4d5ae5;
 }
