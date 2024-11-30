@@ -663,11 +663,11 @@ margin-bottom: 16px;
 
 }
 
-.main-form-button:hover svg {
+.modal-close-icon:hover svg {
   fill: #ffffff;
 }
 
-.main-form-button:focus svg {
+.modal-close-icon:focus svg {
   fill: #ffffff;
 }
 
@@ -683,6 +683,7 @@ margin-bottom: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  margin-top: 112px;
 }
 
 .modal-first-container {
