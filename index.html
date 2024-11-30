@@ -415,28 +415,68 @@
 
   <!-- Modal -->
 
-  <div class="modal-window">
-    <div id="modal-container">
-      <button type="button" class="main-form-button">
-        <svg width="8" height="8" class="modal-close-icon">
-          <use href="./images/icons.svg#modal-close-icon"></use>
-        </svg>
-      </button>
-      <p class="modal-p">Leave your contacts and we will call you back</p>
-  
-      <form>
-        <div class="modal-first-container">
-          <label class="form-name-chapter" for="user-name">Name</label>
-          <div class="form-name-input">
-            <input id="user-name" name="user-name" type="text" class="form-name-input-container">
-            <svg class="form-person-icon" width="18" height="24">
-              <use href="images/icons.svg#form-person"></use>
-            </svg>
+  <main>
+    <footer></footer>
+    <div class="modal-window">
+      <div id="modal-container">
+        <button type="button" class="main-form-button">
+          <svg width="8" height="8" class="modal-close-icon">
+            <use href="./images/icons.svg#modal-close-icon"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form>
+          <!-- Name Input -->
+          <div class="modal-first-container">
+            <label class="form-name-chapter" for="user-name">Name</label>
+            <div class="form-name-input">
+              <input id="user-name" name="user-name" type="text" class="form-name-input-container">
+              <svg class="form-person-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-person"></use>
+              </svg>
+            </div>
           </div>
-        </div>
-      </form>
+          <!-- Phone Input -->
+          <div class="modal-first-container">
+            <label class="form-name-chapter" for="user-phone">Phone</label>
+            <div class="form-name-input">
+              <input id="user-phone" name="user-phone" type="text" class="form-name-input-container">
+              <svg class="form-person-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <!-- Email Input -->
+          <div class="modal-first-container">
+            <label class="form-name-chapter" for="user-email">Email</label>
+            <div class="form-name-input">
+              <input id="user-email" name="user-email" type="email" class="form-name-input-container">
+              <svg class="form-person-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-email"></use>
+              </svg>
+            </div>
+          </div>
+          <!-- Comment -->
+          <div class="modal-comment-container">
+            <label class="form-name-chapter" for="user-comment">Comment</label>
+            <textarea id="user-comment" name="user-comment" placeholder="Text input" class="form-comment-input"></textarea>
+          </div>
+          <!-- Privacy Policy -->
+          <div class="modal-privacy-container">
+            <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="visually-hidden">
+            <label for="user-privacy" class="privacy-label">
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-link">Privacy Policy</a>.
+            </label>
+          </div>
+          <!-- Submit Button -->
+          <button type="submit" class="form-submit-button">Submit</button>
+        </form>
+      </div>
     </div>
-  </div>
+  </main>
+  
+
   
 
 
