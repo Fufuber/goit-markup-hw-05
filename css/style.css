@@ -675,6 +675,9 @@ margin-bottom: 16px;
   margin-top: 112px;
 }
 
+.modal-first-container{
+  margin-bottom: 8px;
+}
 .form-name-chapter {
   font-size: 12px;
   line-height: 1.17;
