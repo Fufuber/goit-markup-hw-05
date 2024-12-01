@@ -773,7 +773,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
+
 }
 
 .privacy-link {
@@ -799,4 +799,18 @@ img {
 
 .form-submit-button:hover {
   background-color: #404bbf;
+}
+
+.checkbox-icon {
+  fill: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden:checked + .privacy-label .privacy-span-form {
+  background-color: #404bbf;
+  border: none;
+}
+
+.visually-hidden:checked + .privacy-label .privacy-span-form .checkbox-icon {
+  fill: #F4F4FD;
 }
